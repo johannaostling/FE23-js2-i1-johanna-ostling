@@ -4,6 +4,38 @@
     padding: 0;
   }
 
+  header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #407055;;
+    color: #fff;
+}
+
+#chooseFighter{
+    text-align: center;
+    margin: 20px;
+}
+
+.buttonDiv {
+    text-align: center;
+    margin: 20px;
+}
+
+#cactusBtn {
+    background-color: #609036;
+    color: #fff;
+    height: 1.5rem;
+    padding: 0rem 1rem;
+}
+
+#nettleBtn {
+    background-color: #408888;
+    color: #fff;
+    height: 1.5rem;
+    padding: 0rem 1rem;
+}
+
 .hide {
     display: none;
 }
