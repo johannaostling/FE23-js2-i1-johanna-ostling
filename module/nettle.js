@@ -5,7 +5,7 @@ class Nettle extends Fighter{
         super(health);
     }
 
-    posion(){
+    poison(){
 
     }
     
