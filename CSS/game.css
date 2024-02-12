@@ -1,0 +1,23 @@
+#gameArea {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.healthBar {
+    width: 200px;
+    height: 20px;
+    background-color: #204060;
+    margin: 10px auto;
+}
+
+#actionButtons {
+    margin-top: 20px;
+}
+
+#battleLog{
+    margin-top: 20px;
+    border: 1px solid #107370;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+}
