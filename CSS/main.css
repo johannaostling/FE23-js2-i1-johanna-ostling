@@ -14,7 +14,7 @@
 
 #chooseFighter{
     text-align: center;
-    margin: 20px;
+    margin: 40px;
 }
 
 .buttonDiv {
@@ -36,7 +36,11 @@
     padding: 0rem 1rem;
 }
 
-
 .hide {
     display: none;
 }
+
+#fighterSelection {
+    display: block;
+}
+
