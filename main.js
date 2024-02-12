@@ -2,11 +2,9 @@ import {Cactus}  from "./module/cactus.js";
 import { Fighter } from "./module/fighter.js";
 import {Nettle}  from "./module/nettle.js";
 
-<<<<<<< Updated upstream
 const c = new Cactus(500);
 console.log(c)
 c.attackHealth(10)
-=======
 
 //Start game function and hide fighterSelection form when user've choose fighter 
 
@@ -34,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 const c = new Cactus(10);
->>>>>>> Stashed changes
 console.log(c)
 c.needle(10)
 
