@@ -3,9 +3,9 @@ function chooseAttackN(){
     const btn2= document.getElementById('btn2')
     const btn3= document.getElementById('btn3')
     
-    btn1.innerText= "attack one N";
-    btn2.innerText= "attack two n";
-    btn3.innerText= "heal N";
+    btn1.innerText= "poison";
+    btn2.innerText= "flood";
+    btn3.innerText= "heavyRain";
     
     btn1.addEventListener("click", function(){
         console.log("attack one")

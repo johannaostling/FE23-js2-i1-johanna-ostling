@@ -15,7 +15,7 @@ class Nettle extends Fighter{
         return
     }
     
-    rain(){
+    heavyRain(){
         Math.floor(Math.random() * 100)
         return
     }
