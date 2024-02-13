@@ -30,9 +30,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function startGame(selectedPlant) {
         console.log("You choose the " + selectedPlant + " and the game begins!");
+        document.createElement
     }
 
 });
+
+//Display gameArea
+document.addEventListener(function (startGame){
+    const displayGameArea = document.getElementById('gameArea');
+    displayGameArea.innerHTML = '';
+
+});
+
 
 
 
