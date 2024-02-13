@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const nettleBtn = document.getElementById('nettleBtn');
 
     cactusBtn.addEventListener('click', function () {
+        console.log(fighterSelectionForm)
         fighterSelectionForm.classList.add('hide');
         startGame('cactus');
     });
