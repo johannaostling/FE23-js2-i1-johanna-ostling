@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const nettleBtn = document.getElementById('nettleBtn');
 
     cactusBtn.addEventListener('click', function () {
-        console.log(fighterSelectionForm)
         fighterSelectionForm.classList.add('hide');
         startGame('cactus');
         chooseAttackC();
@@ -30,17 +29,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function startGame(selectedPlant) {
         console.log("You choose the " + selectedPlant + " and the game begins!");
-        document.createElement
+        const displayGameArea = document.getElementById('gameArea');
+        displayGameArea.classList.remove('hide');
     }
 
 });
 
-//Display gameArea
-document.addEventListener(function (startGame){
-    const displayGameArea = document.getElementById('gameArea');
-    displayGameArea.innerHTML = '';
 
-});
 
 
 
