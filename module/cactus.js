@@ -12,7 +12,7 @@ class Cactus extends Fighter{
         
     }
     succulentPowers(){
-        return Math.floor(Math.random() * 100)
+        return Math.floor(Math.random() * 200 - 50)
         
     }
 

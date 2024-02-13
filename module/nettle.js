@@ -6,18 +6,18 @@ class Nettle extends Fighter{
     }
 
     poison(){
-        Math.floor(Math.random() * 50 + 10);
-        return
+        return Math.floor(Math.random() * 50 + 10);
+        
     }
     
     flood(){
-        Math.floor(Math.random() * 100);
-        return
+        return Math.floor(Math.random() * 100);
+       
     }
     
     heavyRain(){
-        Math.floor(Math.random() * 100)
-        return
+        return Math.floor(Math.random() * 200 - 50)
+        
     }
 }
 
