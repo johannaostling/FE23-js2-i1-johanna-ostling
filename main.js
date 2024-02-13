@@ -36,10 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //Display gameArea
-document.addEventListener(function(){
+document.addEventListener(function (startGame){
     const displayGameArea = document.getElementById('gameArea');
     displayGameArea.innerHTML = '';
-    
+
 });
 
 
