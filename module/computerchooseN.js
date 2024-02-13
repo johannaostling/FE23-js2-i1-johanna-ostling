@@ -3,16 +3,16 @@ let computersNr = Math.floor(Math.random() * 3)
 
 function computerchoosesAsC(){
   if (computersNr == 0){
-    console.log("needle")
-    return "needle()";
+    console.log("poison")
+    return "poison()";
     }
     else if (computersNr == 1){
-        console.log("heatstroke")
-        return "heatstroke()";
+        console.log("flood")
+        return " flood()";
     }
     else {
-        console.log("succulentPowers")
-        return "succulentPowers()"
+        console.log("heavyRain")
+        return "heavyRain()"
     }
 
 }
