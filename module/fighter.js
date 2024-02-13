@@ -5,11 +5,13 @@ class Fighter{
         
     }
 
-    attackHealth(attack){
-        this.health-= attack
+    attackHealth(damage){
+        this.health-= damage
+        return
     }
     healHealth(heal){
         this.health+= heal
+        return
     }
 
 }

@@ -1,6 +1,8 @@
 import { Cactus } from "./module/cactus.js";
 import { Fighter } from "./module/fighter.js";
 import { Nettle } from "./module/nettle.js";
+import { chooseAttackC } from "./module/attackcactus.js";
+import { chooseAttackN } from "./module/attacknettle.js";
 
 
 
@@ -15,18 +17,30 @@ document.addEventListener("DOMContentLoaded", function () {
     cactusBtn.addEventListener('click', function () {
         fighterSelectionForm.classList.add('hide');
         startGame('cactus');
+        chooseAttackC()
+
     });
 
     nettleBtn.addEventListener('click', function () {
         fighterSelectionForm.classList.add('hide');
         startGame('nettle');
+        chooseAttackN();
     })
 
     function startGame(selectedPlant) {
-        console.log("You choose the " + selectedPlant + " and the game begin!");
+        console.log("You choose the " + selectedPlant + " and the game begins!");
     }
 
 });
+
+
+
+
+
+
+
+
+
 
 const c = new Cactus(500);
 console.log(c)

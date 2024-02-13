@@ -6,12 +6,15 @@ class Cactus extends Fighter{
     }
     needle(){
         Math.floor(Math.random() * 50 + 10);
+        return
     }
     heatstroke(){
         Math.floor(Math.random() * 100);
+        return
     }
     succulentPowers(){
         Math.floor(Math.random() * 100)
+        return
     }
 
 }
