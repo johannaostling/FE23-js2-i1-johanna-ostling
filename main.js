@@ -45,6 +45,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const displayGameArea = document.getElementById('gameArea');
         displayGameArea.classList.remove('hide');
 
+        const displayChoise = document.getElementById('youInfo');
+        displayChoise.append('You are now the ' + selectedPlant + '. ' + 'Choose a power and attack!');
+
+
+
     document.addEventListener('click', function(player, comp){
 
     })
